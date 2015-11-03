@@ -32,7 +32,7 @@
 
 (defn setup
   []
-  (let [level l/level-2]
+  (let [level l/level-1]
     {:player        (:player-start level)
      :images        (game-images)
      :current-level level}))
